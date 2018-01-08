@@ -80,8 +80,8 @@ html, body {
 		padding-top: 2%;
 	}
 	.blog img {
-	width: 16%;
-	height: auto;
+		width: 15%;
+		height: auto;
 	}
 }
 
@@ -92,5 +92,61 @@ html, body {
 	.rightCol {
 		padding-left: 5%;
 		padding-top: 5%;
+	}
+}
+@media (max-width: 440px) {
+	.rightCol {
+		padding-top: 10%;
+	}
+}
+@media (max-width: 320px) {
+	.phones {
+		width: 250px;
+		height: auto;
+		padding-top: 10%;
+	}
+	.text {
+		padding-top: 8%;
+		width: 250px;
+	}
+	.mobileLinks img {
+		width: 25%;
+	}
+	.blog img {
+		padding-top: 0%;
+		width: 14%;
+		height: auto;
+	}
+	.mobileLinks li {
+		padding-top: 5%;
+	}
+}
+@media only screen and (device-width: 768px) {
+	.phones {
+		width: 500px;
+		height: auto;
+		padding-top: 10%;
+	}
+	.text {
+		padding-top: 8%;
+		width: 500px;
+	}
+	.link img {
+		width: 50%;
+	}
+	.mobileLinks img {
+		width: 15%;
+	}
+	.blog img {
+		padding-top: 0%;
+		width: 10%;
+		height: auto;
+	}
+	.mobileLinks {
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+		padding-top: 5%;
+		transform: translateX(-2%);
 	}
 }
