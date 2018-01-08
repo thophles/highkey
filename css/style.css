@@ -70,6 +70,10 @@ html, body {
 		list-style: none;
 		
 	}
+	.link img {
+		position: relative;
+		top: 10px;
+	}
 	.mobileLinks img {
 		display: block;
 		margin: 0 auto;
