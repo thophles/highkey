@@ -62,7 +62,7 @@ html, body {
 		display: block;
 		width: 100%;
 		margin: 0 auto;
-		padding-top: 14%;
+		padding-top: 13%;
 		transform: translateX(-5%);
 	}
 	.mobileLinks li {
@@ -121,7 +121,7 @@ html, body {
 		padding-top: 5%;
 	}
 }
-@media only screen and (device-width: 768px) {
+@media (min-width: 768px) and (max-width: 768px) {
 	.phones {
 		width: 500px;
 		height: auto;
