@@ -1,0 +1,1 @@
+This is the landing page for the new highkey app. Due to time constraints, this is only a basic version. Enhancements coming soon. 
