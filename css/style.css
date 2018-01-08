@@ -45,15 +45,11 @@ html, body {
 	width: 500px;
 	height: auto;
 }
-@media (max-width: 892px) {
-	body {
-		overflow-x: hidden;
-		overflow-y: hidden;
-	}
+@media (max-width: 990px) {
 	.phones {
 		width: 300px;
 		height: auto;
-		padding-top: 15%;
+		padding-top: 10%;
 	}
 	.text {
 		padding-top: 8%;
@@ -64,34 +60,37 @@ html, body {
 	}
 	.mobileLinks {
 		display: block;
-		
+		width: 100%;
+		margin: 0 auto;
+		padding-top: 14%;
+		transform: translateX(-5%);
 	}
 	.mobileLinks li {
-		padding: 5% 5%;
+		padding-top: 5%;
 		list-style: none;
-		display: block;
+		
 	}
 	.mobileLinks img {
-		width: 20%;
-		height: auto;
+		display: block;
+		margin: 0 auto;
 	}
 	.head img {
 		display: block;
 		margin: 0 auto;
 		padding-top: 2%;
 	}
-}
-@media (min-width: 768px) and (max-width: 992px) {
-	.text {
-		padding-top: 60%;
-		width: 350px;
+	.blog img {
+	width: 16%;
+	height: auto;
 	}
-	.phones {
-		width: 400px;
-		height: auto;
-		transform: translateX(-20%);
+}
+
+@media (min-width: 990px) and (max-width: 1202px) {
+	.text {
+		width: 350px;
 	}
 	.rightCol {
 		padding-left: 5%;
+		padding-top: 5%;
 	}
 }
