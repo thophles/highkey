@@ -58,6 +58,9 @@ h3 {
 	width: 500px;
 	height: auto;
 }
+.hiddenLinks {
+	display: none;
+}
 @media (max-width: 990px) {
 	.phones {
 		width: 300px;
