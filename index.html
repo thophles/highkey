@@ -8,16 +8,24 @@
 <link href="css/style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-<header class="head">
-	<img src="images/logo.svg" width="120px">	
-</header>
-		<nav class="deskNav">
-			<ul>
-				<li><a href="#" class="nav-links"><img src="images/BLOG.svg"></a></li>
-				<li><address><a href="mailto:populicoy@gmail.com" class="nav-links"><img src="images/CONTACT.svg"></a></address></li>
-			</ul>
+	<nav class="navbar" role="navigation">
+		<div class="container">
+		   <div class="navbar-header">
+		    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		    			<img src="images/mobileMenuBar.svg" height="15px" width="auto">
+		    	</button>
+	    		<a class="navbar-brand" href="#"><img src="images/logo.svg" width="120px"></a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">BLOG</a></li>
+					<li><a href="mailto:info@populic.com" class="nav-links">CONTACT</a></li>
+				</ul>
+				</div>
+		    </div>
 		</nav>
-
+<br>
+<br>
 <div class="container">
 	<div class="row">
 		<div class="col-md-6 col-sm-12" align="center">
@@ -33,11 +41,8 @@
 		</div>
 	</div>
 </div>
-<div class="mobileLinks">
- 	<ul>
-		<li><a href="#" class="blog"><img src="images/BLOG.svg"></a></li>
-		<li><address><a href="mailto:populicoy@gmail.com" ><img src="images/CONTACT.svg"></a></address></li>
-	</ul>
+<div class="footer">
+ <p>Populic, the parent-company of Highkey, is based in Betonimiehenkuja 3 D, 02150 Espoo, Finland.</p>
 </div>
 <div class="hiddenLinks">
  	<ul>
@@ -45,7 +50,7 @@
 		<li><a href="html/terms.html"></a></li>
 	</ul>
 </div>
-				
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="bootstrap/bootstrap.min.js"></script>
 </body>
 </html>
